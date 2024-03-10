@@ -914,17 +914,17 @@ If called non-interactively, the FLAVOR must be one of 'frappe, 'latte, 'macchia
                (org-headline-done :inherit org-done)
                (org-hide :foreground ,ctp-crust :background ,ctp-base)
                (org-indent :foreground ,ctp-base)
-               (org-level-1 :inherit bold :foreground ,ctp-red
+               (org-level-1 :inherit bold :foreground ,ctp-mauve
                             ,@(when catppuccin-enlarge-headings
                                 (list :height catppuccin-height-title-1)))
                (org-level-2 :inherit bold :foreground ,ctp-peach
                             ,@(when catppuccin-enlarge-headings
                                 (list :height catppuccin-height-title-2)))
-               (org-level-3 :weight normal :foreground ,ctp-yellow
+               (org-level-3 :weight normal :foreground ,ctp-sapphire
                             ,@(when catppuccin-enlarge-headings
                                 (list :height catppuccin-height-title-3)))
                (org-level-4 :weight normal :foreground ,ctp-green)
-               (org-level-5 :weight normal :foreground ,ctp-sapphire)
+               (org-level-5 :weight normal :foreground ,ctp-red)
                (org-level-6 :weight normal :foreground ,ctp-lavender)
                (org-level-7 :weight normal :foreground ,ctp-mauve)
                (org-level-8 :weight normal :foreground ,ctp-maroon)
