@@ -591,6 +591,8 @@ If called non-interactively, the FLAVOR must be one of 'frappe, 'latte, 'macchia
                (font-latex-match-variable-keywords :foreground ,ctp-text)
                (font-latex-string-face :foreground ,ctp-green)
                (font-latex-warning-face :inherit warning)
+               ;; forge
+               (forge-pullreq-merged :foreground ,ctp-overlay0)
                ;; TODO: More latex faces to be themed, especially sections
                ;; gemini
                (gemini-heading-face-1 :weight bold :foreground ,ctp-blue
@@ -905,7 +907,7 @@ If called non-interactively, the FLAVOR must be one of 'frappe, 'latte, 'macchia
                (org-agenda-dimmed-todo-face :inherit font-lock-comment-face)
                (org-agenda-done :foreground ,ctp-green)
                (org-agenda-structure :foreground ,ctp-subtext0)
-               (org-block :extend t :background ,ctp-mantle :foreground ,ctp-green)
+               (org-block :extend t :background ,ctp-mantle :foreground ,ctp-text)
                (org-block-begin-line :inherit org-meta-line :extend t :background ,ctp-mantle)
                (org-block-end-line :inherit org-block-begin-line :extend t :background ,ctp-mantle)
                (org-code :foreground ,ctp-green)
